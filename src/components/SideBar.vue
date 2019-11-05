@@ -2,12 +2,12 @@
   <div id="sidebar">
     <div id="nav">
       <router-link to="/">
-        <img class="logoImage" src="assets\images\logo.png" />
+        <img class="logoImage" src="@/assets/images/logo.png" />
       </router-link>
       <div class="premiumClass">
         <div class="row">
           <div class="col-sm-3">
-            <img src="assets\images\profile.png" />
+            <img src="@/assets/images/profile.png" />
           </div>
           <div class="col-sm-9" style="padding-left:0% !important">
             <h5 style=" font-weight: bold;">{{ user.name }}</h5>
